@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-c {
+  margin-top: 10%;
+  position: absolute;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  position: relative;
+}
+
+.box-c .form-1 {
+  position: relative;
+  opacity: 1;
+}
+
+.form-1.form-next-one {
+  position: absolute;
+  opacity: 0;
+}
+
+.box-c .form-2 {
+  /* position: absolute;
+  opacity: 0; */
+  position: relative;
+  opacity: 1;
+}
+
+.form-2.form-next-two {
+  position: absolute;
+  opacity: 0;
+}
+
+.box-c .form-3 {
+  position: relative;
+  opacity: 1;
+}
+
+.form-3.form-next-three {
+  position: absolute;
+  opacity: 0;
+}
+
+.btn-box-add {
+  margin-top: 1rem;
+}
+
+.box-c .form-text {
+  position: relative;
+  opacity: 1;
+}
+
+.form-text.form-next-text {
+  position: absolute;
+  opacity: 0;
+}
+
+.box-c .form-filter {
+  position: relative;
+  opacity: 1;
+}
+
+.form-filter.form-next-filter {
+  position: absolute;
+  opacity: 0;
+}
