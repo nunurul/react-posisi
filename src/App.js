@@ -17,11 +17,11 @@ function App() {
   };
 
   const handleAddText = () => {
-    setCurrentForm(4); // Assuming 5 represents the "Add Text" form
+    setCurrentForm(4);
   };
 
   const handleAddFilter = () => {
-    setCurrentForm(5); // Assuming 6 represents the "Add Filter" form
+    setCurrentForm(5);
   };
   return (
     <div className="container">
